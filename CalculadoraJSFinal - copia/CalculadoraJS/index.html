@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Metodo de Bisección</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="calculator-display" id="display">
+                <p>f1x = f(x0)+((f(x1) - f(x0)) / (x1 - x0))(x - x0)</p>
+                <p>f1x = <input autofocus placeholder="fx0" type="" class="inpForm" id="fx0"> +((<input placeholder="fx1" type="" class="inpForm" id="fx1"> - <input type="" disabled placeholder="fx0" class="inpForm" id="fx0D">) / (<input placeholder="x1" type="" class="inpForm" id="x1"> - <input placeholder="x0" type="" class="inpForm" id="x0">))(<input type="" placeholder="x" class="inpForm" id="x"> - <input placeholder="x0" type="" disabled class="inpForm" id="x0D">)</p>
+                <p id="res"></p>
+            </div>
+            <div class="calculator-display">
+                <p>Error Porcentual% <input id="tV"> </p>
+                <p id="tVRes"></p>
+            </div>
+            <div class="calculator-keypad">
+                <div class="keypad-numbers">
+                    <div class="keypad-button" id="clear">C</div>
+                    <div class="keypad-button" id="delete">borrar</div>
+                    <div class="keypad-button" id="btn7">7</div>
+                    <div class="keypad-button" id="btn8">8</div>
+                    <div class="keypad-button" id="btn9">9</div>
+                    <div class="keypad-button" id="btn4">4</div>
+                    <div class="keypad-button" id="btn5">5</div>
+                    <div class="keypad-button" id="btn6">6</div>
+                    <div class="keypad-button" id="btn1">1</div>
+                    <div class="keypad-button" id="btn2">2</div>
+                    <div class="keypad-button" id="btn3">3</div>
+                    <div class="keypad-button" id="btn0">0</div>
+                    <div class="keypad-button" id="btnPoint">.</div>
+                    <div class="keypad-button" id="submit">=</div>
+                    <div class="keypad-button" id="btnBack"> <- </div>
+                    <div class="keypad-button" id="btnNext"> -> </div>
+                    <div class="keypad-button" id="menos">-</div>
+                    <p id="error"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/calculadora.js"></script>
+    
+</body>
+</html>

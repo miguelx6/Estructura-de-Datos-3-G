@@ -1,0 +1,92 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+html{
+    font-family: 'Georama', sans-serif;
+    font-size: 62.5%;
+}
+
+.foco{
+    outline: solid red 2px;
+    width: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 15px;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 70vh;
+    font-size: 1rem;
+    border: 1px solid gray;
+}
+
+.calculator-display{
+    padding: 25px 15px;
+    width: 100%;
+    text-align: right;
+    border: 1px solid gray;
+    overflow-x: auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+}
+.calculator-display p{
+    margin-bottom: 5px;
+}
+
+.inpForm{
+    width: 50px;
+}
+
+.calculator-keypad{
+    display: flex;
+    width: 100%;
+}
+
+.keypad-numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-weight: bold;
+}
+
+.keypad-button{
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+}
+
+.keypad-button:hover {
+    filter: brightness(80%);
+    transition: .25s;
+}
+
+.keypad-button.yellow {
+    background-color: yellow;
+}
+
+.keypad-button.large {
+    width: 50%;
+}
+
+.keypad-button.drak {
+    background-color: lightgray;
+}
