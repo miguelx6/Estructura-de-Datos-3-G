@@ -79,7 +79,7 @@ class Lista{
 let datos = new Lista();
 let num = new Nodo(10);
 datos.agregar(num);
-num = new Nodo(8)
+num = new Nodo(9)
 datos.agregar(num);
 num = new Nodo(6)
 datos.agregar(num);
