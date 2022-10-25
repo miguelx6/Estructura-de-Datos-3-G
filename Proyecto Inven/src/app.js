@@ -181,3 +181,7 @@ document.getElementById('producto-invertir')
             listaProducto.appendChild(element);
         }
     }
+
+    function listarEnlazado(){
+        
+    }
